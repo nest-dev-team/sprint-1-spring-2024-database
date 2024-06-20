@@ -1,0 +1,6 @@
+INSERT INTO song_review
+	(review_id, user_id, song_id, rating, "desc", review_date)
+VALUES
+	(1, 5, 15, 8, 'This energetic K-pop track combines catchy melodies with vibrant electronic beats. The song captures the exhilaration of falling in love and features an infectious chorus that will have listeners dancing along. The production is polished, showcasing the group''s vocal talents and their ability to deliver a memorable performance.', '7/22/2019'),
+	(2, 17, 49, 10, 'An uplifting reggae tune that transports listeners to a sunny beach with its laid-back rhythms and soothing vocals. The song exudes positive vibes and encourages relaxation. With its catchy hooks and breezy instrumentation, "Tropical Breeze" is a perfect anthem for summer days and unwinding with friends.', '7/22/2019'),
+	(3, 8, 25, 6, 'A haunting alternative track that delves into themes of solitude and introspection. The song''s moody atmosphere is created by its layered guitars and ethereal vocals. While the pace is slow, it effectively conveys a deep sense of emotion and reflection, making it a thought-provoking listen.', '5/10/2021');

@@ -4,7 +4,7 @@ CREATE TABLE artist_review
     user_id integer NOT NULL,
     artist_id integer NOT NULL,
     rating integer NOT NULL CHECK (rating BETWEEN 1 AND 10),
-    "desc" character varying(256),
+    "desc" character varying(512),
     review_date date DEFAULT CURRENT_DATE,
     PRIMARY KEY (review_id),
     CONSTRAINT user_id FOREIGN KEY (user_id)
