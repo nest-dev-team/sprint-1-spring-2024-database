@@ -96,7 +96,7 @@ VALUES
 INSERT INTO song
 	(song_id, genre_id, title, length)
 VALUES
-	(1, 5, 'Tennessee Morning', '3:45')
+	(1, 5, 'Tennessee Morning', '3:45'),
 	(2, 5, 'Homegrown Love', '4:02'),
 	(3, 5, 'Dusty Trails', '3:57'),
 	(4, 5, 'Whispering Pines', '4:10'),
