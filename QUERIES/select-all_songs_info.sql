@@ -1,3 +1,5 @@
+-- display all songs with their respective album, artist, genre, length, and number of reviews
+
 SELECT
 	song.title AS song,
 	album.title AS album,

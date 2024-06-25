@@ -1,4 +1,5 @@
--- Select the top rated song using FETCH, display the song, artist, review and rating
+-- select the top rated song using FETCH, display the song, artist, review and rating
+
 SELECT 
 	song.title AS title, 
 	artist.name AS artist, 

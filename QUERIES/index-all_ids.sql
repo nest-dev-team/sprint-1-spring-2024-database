@@ -1,3 +1,5 @@
+-- create indexes on artist, album, song, and user tables
+
 CREATE INDEX idx_artist_id
 ON artist(artist_id);
 

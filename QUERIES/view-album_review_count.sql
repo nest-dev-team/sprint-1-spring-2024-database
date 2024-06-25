@@ -1,3 +1,5 @@
+-- creates a view that shows the number of reviews for each album
+
 CREATE VIEW album_review_count AS
 	SELECT
 		album_id,

@@ -1,4 +1,5 @@
--- List all songs by a given artist
+-- list all songs by a given artist
+
 SELECT 
 	song.title AS song_title,
 	album.title AS album_title,

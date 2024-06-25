@@ -1,4 +1,5 @@
--- List all songs available in the catalog, sorted by title 
+-- list all songs available in the catalog, sorted by title 
+
 SELECT 
 	song.title AS song_title,
 	artist.name as arist_name

@@ -1,3 +1,5 @@
+-- display all playlists with their respectivee user, number of songs, total length, and playlist description
+
 SELECT
 	playlist.name AS playlist, 
 	"user".username AS "user", 

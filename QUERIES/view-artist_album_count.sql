@@ -1,3 +1,5 @@
+-- creates a view that shows the number of albums for each artist
+
 CREATE VIEW artist_album_count AS
 	SELECT
 		artist_id,

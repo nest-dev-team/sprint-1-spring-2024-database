@@ -1,3 +1,5 @@
+-- creates a view that shows the number of songs and total length for each playlist
+
 CREATE VIEW playlist_length AS
 	SELECT
 		playlist_id,

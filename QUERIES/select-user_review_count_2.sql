@@ -1,4 +1,6 @@
--- Using UNION, list all users who have posted at least 1 review of a song, album, or artist
+-- using UNION, selects the users who have posted at least 1 review of a song, album, or artist
+-- same output as select-user_review_count_1.sql
+
 SELECT 
 	u.user_id AS user_id,
 	u.username AS username,

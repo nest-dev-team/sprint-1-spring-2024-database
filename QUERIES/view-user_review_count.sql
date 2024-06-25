@@ -1,3 +1,5 @@
+-- creates a view that shows the number of reviews by each user
+
 CREATE VIEW user_review_count AS
 	SELECT 
 		user_id,

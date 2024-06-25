@@ -1,3 +1,6 @@
+-- using HAVING, selects the users who have posted at least 1 review of a song, album, or artist
+-- same output as select-user_review_count_2.sql
+
 SELECT 
 	user_id,
 	username,

@@ -1,3 +1,5 @@
+-- display all albums with their respective artist, genre, label, release date, reviews, number of songs, and total length
+
 SELECT
 	album.title AS album, 
 	artist.name AS artist, 

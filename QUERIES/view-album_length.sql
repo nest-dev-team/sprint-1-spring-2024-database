@@ -1,3 +1,5 @@
+-- creates a view that shows the number of songs and total length of each album
+
 CREATE VIEW album_length AS
 	SELECT
 		album_id,

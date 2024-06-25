@@ -1,3 +1,5 @@
+-- display all artists with their respective genre, number of songs, number of albums, reviews, and artist bio description
+
 SELECT
 	artist.name AS artist, 
 	genre.name AS genre,
